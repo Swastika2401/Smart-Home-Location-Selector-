@@ -1,10 +1,7 @@
-# Smart-Home-Location-Selector-
-🏠 Smart Home Location Selector
-
+# 🏠Smart-Home-Location-Selector-
 A Machine Learning–enabled, data-driven recommendation system that helps users identify the most suitable residential locations in major Indian metro cities based on budget, safety, accessibility, environment, and lifestyle preferences.
 
-📌 Project Overview
-
+# 📌 Project Overview
 Choosing a residential location in a metro city is a complex decision involving multiple factors such as price, safety, pollution, transportation access, and availability of essential services.
 The Smart Home Location Selector simplifies this decision-making process by combining data preprocessing, exploratory data analysis, rule-based filtering, and machine learning to generate personalized location recommendations.
 
