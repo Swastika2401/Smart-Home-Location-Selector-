@@ -1,11 +1,13 @@
-# 🏠Smart-Home-Location-Selector-
+# 🏠 Smart-Home-Location-Selector-
+
 A Machine Learning–enabled, data-driven recommendation system that helps users identify the most suitable residential locations in major Indian metro cities based on budget, safety, accessibility, environment, and lifestyle preferences.
 
 # 📌 Project Overview
+
 Choosing a residential location in a metro city is a complex decision involving multiple factors such as price, safety, pollution, transportation access, and availability of essential services.
 The Smart Home Location Selector simplifies this decision-making process by combining data preprocessing, exploratory data analysis, rule-based filtering, and machine learning to generate personalized location recommendations.
 
-🎯 Objectives
+# 🎯 Objectives
 
 Analyze residential location data across Indian metro cities
 
@@ -19,7 +21,7 @@ Use Machine Learning to predict a suitability score
 
 Rank and recommend the best residential locations
 
-🏙️ Supported Cities
+# 🏙️ Supported Cities
 
 Bengaluru
 
@@ -33,7 +35,7 @@ Chennai
 
 Pune
 
-📊 Dataset Information
+# 📊 Dataset Information
 
 File: smart_home_location_dataset_20000.csv
 
@@ -55,7 +57,7 @@ Infrastructure: internet speed, road connectivity, power backup
 
 Lifestyle: green space score, shopping mall distance
 
-🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 Python
 
@@ -67,14 +69,15 @@ Matplotlib & Seaborn – Visualization (EDA)
 
 Scikit-learn – Preprocessing & Machine Learning
 
-🧠 Methodology
-1️⃣ Data Loading & Inspection
+# 🧠 Methodology
+
+### 1️⃣ Data Loading & Inspection
 
 Dataset loaded using Pandas
 
 Initial inspection using shape, info(), and describe()
 
-2️⃣ Data Preprocessing
+### 2️⃣ Data Preprocessing
 
 Encoding categorical variables (binary & one-hot encoding)
 
@@ -82,7 +85,7 @@ Min–Max normalization of numerical features
 
 Classification of features into positive and negative impact categories
 
-3️⃣ Exploratory Data Analysis (EDA)
+### 3️⃣ Exploratory Data Analysis (EDA)
 
 City-wise rent comparison
 
@@ -92,7 +95,7 @@ Transportation accessibility distribution
 
 Infrastructure comparison across cities
 
-4️⃣ Rule-Based Filtering
+### 4️⃣ Rule-Based Filtering
 
 Budget constraints
 
@@ -100,7 +103,7 @@ Minimum safety threshold
 
 Maximum pollution and distance limits
 
-5️⃣ Machine Learning Integration
+### 5️⃣ Machine Learning Integration
 
 Creation of a synthetic suitability score
 
@@ -110,7 +113,7 @@ Learning feature importance automatically
 
 Predicting suitability scores for all locations
 
-6️⃣ Recommendation Engine
+### 6️⃣ Recommendation Engine
 
 Ranking locations based on predicted suitability score
 
@@ -118,7 +121,7 @@ Selecting top-N recommendations
 
 Exporting results to CSV
 
-🤖 Machine Learning Model
+# 🤖 Machine Learning Model
 
 Model Used: Random Forest Regressor
 
@@ -132,7 +135,8 @@ Easy to interpret and explain
 
 Output: Predicted suitability score (0–1)
 
-📁 Project Structure
+# 📁 Project Structure
+
 Smart-Home-Location-Selector/
 │
 ├── notebooks/
@@ -147,7 +151,7 @@ Smart-Home-Location-Selector/
 ├── README.md
 └── requirements.txt
 
-▶️ How to Run the Project
+# ▶️ How to Run the Project
 
 Clone or download the repository
 
@@ -155,15 +159,13 @@ Install required dependencies
 
 pip install -r requirements.txt
 
-
 Open Jupyter Notebook
 
 jupyter notebook
 
-
 Run Smart_Home_Location_Selector.ipynb cell by cell
 
-📝 Sample Output
+# 📝 Sample Output
 
 Top-ranked residential localities
 
@@ -177,7 +179,7 @@ Accessibility metrics
 
 Results can be exported as a CSV file for further analysis.
 
-🔮 Future Enhancements
+# 🔮 Future Enhancements
 
 Real-time data integration
 
@@ -191,7 +193,7 @@ Expansion to more cities
 
 Deep learning–based recommendation models
 
-🎓 Academic Relevance
+# 🎓 Academic Relevance
 
 This project demonstrates:
 
